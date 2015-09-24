@@ -1,0 +1,40 @@
+{
+  "title": "QuickProxy",
+  "name": "quickproxy",
+  "version": "0.1.0",
+  "description": "Enable/disable proxy with one click",
+  "main": "index.js",
+  "author": "fg1",
+  "engines": {
+    "firefox": ">=38.0"
+  },
+  "license": "BSD",
+  "preferences": [
+  {
+    "name": "proxyTypeDisabled",
+    "title": "Proxy setting when disabled",
+    "type": "integer",
+    "type": "menulist",
+    "value": 0,
+    "options": [
+      { "value": 0, "label": "Direct connection" },
+      { "value": 1, "label": "Manual proxy configuration" },
+      { "value": 2, "label": "Proxy auto-configuration (PAC)" },
+      { "value": 4, "label": "Auto-detect proxy settings" },
+      { "value": 5, "label": "Use system proxy settings" }
+    ]
+  },
+  {
+    "name": "proxyTypeEnabled",
+    "title": "Proxy setting when enabled",
+    "type": "menulist",
+    "value": 1,
+    "options": [
+      { "value": 0, "label": "Direct connection" },
+      { "value": 1, "label": "Manual proxy configuration" },
+      { "value": 2, "label": "Proxy auto-configuration (PAC)" },
+      { "value": 4, "label": "Auto-detect proxy settings" },
+      { "value": 5, "label": "Use system proxy settings" }
+    ]
+  }]
+}
