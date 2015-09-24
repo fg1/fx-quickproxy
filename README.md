@@ -6,6 +6,15 @@ Enable/disable proxy with one click in Firefox.
 ![](http://i.imgur.com/EGsVYwT.png)
 
 
+## Installation
+
+Either compile the extension ourself as shown below, or download it:
+
+```
+$ wget https://github.com/fg1/fx-quickproxy/releases/download/v0.1.0/quickproxy-0.1.0.xpi
+$ firefox quickproxy-0.1.0.xpi
+```
+
 ## Compiling the extension
 
 For compiling this extension, one needs the [jpm](https://developer.mozilla.org/en-US/Add-ons/SDK/Tools/jpm) tool.
