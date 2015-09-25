@@ -1,0 +1,7 @@
+README.md
+.git/
+.gitignore
+.jpmignore
+data/icon.svg
+make_pngs.sh
+*.xpi
